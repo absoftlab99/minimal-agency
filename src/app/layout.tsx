@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import HeaderTop from "@/components/Common/HeaderTop";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -12,6 +13,11 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const anikBangla = localFont({
+  src: "./fonts/AnekBangla-VariableFont_wdth,wght.ttf",
+  weight: "100 900"
+});
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,10 +30,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' suppressHydrationWarning>
+    <html data-theme="light" lang='en' suppressHydrationWarning>
       <body
-        className={`${geistSans.className} ${geistMono.className} antialiased`}
+        className={`${geistSans.className} ${geistMono.className} ${anikBangla.className} antialiased`}
       >
+        <HeaderTop></HeaderTop>
         {children}
       </body>
     </html>
