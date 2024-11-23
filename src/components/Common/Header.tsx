@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className='grid md:place-content-center'>
             <div className="lg:w-[1200px] xl:w-[1440px]">
-                <div className="navbar bg-base-100">
+                <div className="navbar px-0">
                     <div className="navbar-start lg:gap-6">
                         <Link href='/' className="flex items-center gap-3">
                             <figure>
@@ -40,21 +40,21 @@ const Header = () => {
                             <li><Link href='/'><TbAddressBook></TbAddressBook> Contact Us</Link></li>
                         </ul>
                     </div>
-                    <div className="navbar-end">
-                        <a className="btn btn-primary hidden lg:flex"><TbLogout></TbLogout> Our Product</a>
+                    <div className="navbar-end flex justify-end">
+                        <a className="btn btn-primary hidden lg:flex text-white"><TbLogout></TbLogout> Our Product</a>
                         <label htmlFor="my-drawer" className='btn btn-ghost lg:hidden text-[28px]'><TbMenu2></TbMenu2></label>
                     </div>
                 </div>
             </div>
 
             {/* Drawer content setcion */}
-            <div className="drawer">
+            <div className="drawer lg:hidden">
                 <input id="my-drawer" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-side">
                     <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
                     <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
                         <div className="flex justify-between items-center">
-                            <button type="button" className='btn btn-sm btn-primary'>Our Products</button>
+                            <button type="button" className='btn btn-sm btn-primary text-white'>Our Products</button>
                             <label htmlFor="my-drawer" aria-label="close sidebar" className="btn btn-sm btn-ghost text-[28px]"><TbX></TbX></label>
                         </div>
                         <div className="divider my-0"></div>
