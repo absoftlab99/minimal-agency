@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "thumbnail": "",
+        "title": "Amar School-Dynamic School College Website PHP Script",
+        "price": "১১০০০",
+        "sold_count": "84"
+    },
+    {
+        "id": 2,
+        "thumbnail": "",
+        "title": "Dynamic Epaper - Epaper PHP Script For Printed Newspaer",
+        "price": "৬৫০০",
+        "sold_count": "18"
+    },
+    {
+        "id": 3,
+        "thumbnail": "",
+        "title": "Taranga Express - Advance PHP Newsportal Website Script",
+        "price": "১০৫০০",
+        "sold_count": "4"
+    },
+    {
+        "id": 4,
+        "thumbnail": "",
+        "title": "Amar Dokan - PHP E-commerce Website Script For Entrepreneur",
+        "price": "৮০০০",
+        "sold_count": "3"
+    }
+]

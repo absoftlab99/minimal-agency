@@ -6,3 +6,7 @@
 .sweet-shad{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+.custom-bg{
+  background-image: url('../app/assets/pattern.png');
+}
