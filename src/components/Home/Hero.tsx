@@ -12,7 +12,7 @@ const Hero = () => {
                     <div className="col-span-12 md:col-span-7 w-full">
                         <div className="flex">
                             <p className='bg-neutral rounded-full p-2 text-white flex gap-2 mb-2'>
-                                টেকতরঙ্গ 
+                                ওই প্রো ডেভস 
                                 <span className='bg-primary rounded-full px-2'>স্মার্ট সমাধান</span>
                             </p>
                         </div>

@@ -15,7 +15,7 @@ interface PortfolioProps {
 const PortfolioCard: React.FC<PortfolioProps> = ({ title, thumbnail, price, soldCount, viewUrl }) => {
     return (
         <div>
-            <div className="card bg-white sweet-shad rounded-md">
+            <div className="card bg-white sweet-shad rounded-md hover:scale-105 duration-500">
                 <figure className="p-2">
                     <Image
                         src={thumbnail || '/default-thumbnail.png'}
