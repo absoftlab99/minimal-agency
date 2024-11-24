@@ -27,6 +27,12 @@ export const metadata: Metadata = {
   description: "build with next.js, typescript, tailwindcss, daisyui, tablericons, reacticons,",
 };
 
+<meta
+    property="og:image"
+    content="./assets/logo.png"
+  />
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
