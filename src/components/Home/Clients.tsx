@@ -23,16 +23,17 @@ const Clients: React.FC<Props> = ({ clients }) => {
     return (
         <div className='grid lg:place-content-center bg-white w-full md:pt-12 pb-24'>
             <div className='w-full lg:w-[1200px] xl:w-[1320px] px-4 md:px-0 mx-auto'>
-                <div className="">
+                <div className="w-full">
                     <div className="flex gap-2 items-center justify-center">
                         <Image src={l2r} width={26} height={7} alt='left to right chevern' />
-                        <p className='text-[16px] md:text-[18px]'>যারা আমাদের ওপর আস্থা রেখেছেন</p>
+                        <p className='text-[16px] md:text-[18px] text-center'>যারা আমাদের ওপর আস্থা রেখেছেন</p>
                         <Image src={r2l} width={26} height={7} alt='right to left chevern' />
                     </div>
-                    <h2 className='text-[24px] md:text-[30px] font-bold text-center mt-2'>আমাদের সেবা গ্রহন করেছেন</h2>
+                    <h2 className='text-[24px] md:text-[30px] font-bold text-center mt-2 '>আমাদের সেবা গ্রহন করেছেন</h2>
                 </div>
                 <div className="mt-5">
                     <Swiper
+                        className='max-h-[200px] md:max-h-[100%] max-w-[350px] md:max-w-[100%]'
                         slidesPerView={3}
                         spaceBetween={30}
 
@@ -46,7 +47,7 @@ const Clients: React.FC<Props> = ({ clients }) => {
                         breakpoints={{
                             // when window width is >= 320px
                             320: {
-                                slidesPerView: 1
+                                slidesPerView: 2
                             },
                             // when window width is >= 768px
                             768: {

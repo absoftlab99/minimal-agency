@@ -16,7 +16,7 @@ const AgencyState = () => {
                     <h2 className='text-[24px] md:text-[30px] font-bold text-center mt-2'>পাঁচ বছরে আমাদের অর্জন</h2>
                 </div>
 
-                <div className="join join-vertica md:join-horizontal grid grid-cols-12 mt-4 md:mt-8">
+                <div className="join join-vertica md:join-horizontal grid grid-cols-12 mt-4 md:mt-8 rounded-none md:rounded-md">
                     <div className="join-item bg-gray-950 hover:bg-gray-950 hover:glass duration-500 transition-colors p-4 col-span-12 md:col-span-3 flex flex-col items-center md:items-start">
                         <h1 className='text-[45px] text-white font-bold'>৭১+</h1>
                         <p className='text-white mt-2'>ওয়েব ডেভেলপমেন্ট<br></br>

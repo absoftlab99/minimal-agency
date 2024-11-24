@@ -11,7 +11,7 @@ const Header = () => {
                 <div className="navbar px-0 py-4">
                     <div className="navbar-start lg:gap-6">
                         <Link href='/' className="flex items-center gap-3">
-                            <figure>
+                            <figure className='ms-4 md:ms-0'>
                                 <Image src={logo} width={230} height={100} alt='logo image'></Image>
                             </figure>
                         </Link>

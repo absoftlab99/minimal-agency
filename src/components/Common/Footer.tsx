@@ -8,14 +8,14 @@ const Footer = () => {
     return (
         <div className='grid lg:place-content-center w-full bg-[#12171b] custom-bg py-20'>
             <div className='w-full lg:w-[1200px] xl:w-[1320px] px-4 md:px-0 mx-auto'>
-                <div className="grid grid-cols-12 gap-20">
-                    <div className="col-span-12 md:col-span-6 lg:col-span-4 flex flex-col justify-start">
+                <div className="grid grid-cols-12 gap-8 md:gap-20">
+                    <div className="col-span-12 md:col-span-6 lg:col-span-4 flex flex-col justify-start w-full">
                         <Link href='/'>
                             <figure>
                                 <Image src={logo} width={230} height={100} alt='logo image'></Image>
                             </figure>
                         </Link>
-                        <p className='text-white'>ডিজিটাল বাংলাদেশের ডিজিটাল ও স্মার্ট প্রযুক্তি সেবা নিয়ে উই প্রো ডেভস্ আছে আপনার পাশে।</p>
+                        <p className='text-white'>ডিজিটাল বাংলাদেশের ডিজিটাল ও স্মার্ট প্রযুক্তি সেবা নিয়ে<br></br> উই প্রো ডেভস্ আছে আপনার পাশে।</p>
                         <div className="flex gap-3 mt-4">
                             <div className="bg-primary p-1 rounded text-white text-[24px]"><TbBrandFacebook></TbBrandFacebook></div>
                             <div className="bg-primary p-1 rounded text-white text-[24px]"><TbBrandInstagram></TbBrandInstagram></div>
