@@ -29,10 +29,13 @@ const TeamCard: React.FC<TeamMemberProps> = ({ name, designation, photo, faceboo
                 <h1 className='text-center font-bold text-[18px] md:text-[22px]'>{name}</h1>
                 <p className='text-center text-[14px] md:text-[16px]'>{designation}</p>
             </div>
-            <div className="flex justify-center items-center bg-success gap-2 py-2">
+            <div className="flex justify-center items-center bg-success bg-opacity-90 py-2">
                 <Link className='text-[24px] text-white text-opacity-75' href={facebook}><TbBrandFacebook></TbBrandFacebook></Link>
+                <div className="divider divider-success divider-horizontal mx-0"></div>
                 <Link className='text-[24px] text-white text-opacity-75' href={instagram}><TbBrandInstagram></TbBrandInstagram></Link>
+                <div className="divider divider-success divider-horizontal mx-0"></div>
                 <Link className='text-[24px] text-white text-opacity-75' href={linkedin}><TbBrandLinkedin></TbBrandLinkedin></Link>
+                <div className="divider divider-success divider-horizontal mx-0"></div>
                 <Link className='text-[24px] text-white text-opacity-75' href={`mailto:${email}`}><TbMail></TbMail></Link>
             </div>
         </div>
