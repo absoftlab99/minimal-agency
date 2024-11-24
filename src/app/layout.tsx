@@ -33,11 +33,13 @@ export default function RootLayout({
   return (
     <html data-theme="light" lang='en' suppressHydrationWarning>
       <body
-        className={`${geistSans.className} ${geistMono.className} ${anikBangla.className} antialiased`}
+        className={`${geistSans.className} ${geistMono.className} ${anikBangla.className} antialiased w-full`}
       >
         <HeaderTop></HeaderTop>
         <Header></Header>
-        {children}
+        <div className="w-full">
+          {children}
+        </div>
       </body>
     </html>
   );

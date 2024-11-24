@@ -7,8 +7,8 @@ import { TbBox, TbAppWindow, TbChevronDown, TbHome, TbLayoutGrid, TbLogout, TbMe
 const Header = () => {
     return (
         <div className='grid md:place-content-center'>
-            <div className="lg:w-[1200px] xl:w-[1440px]">
-                <div className="navbar px-0">
+            <div className="lg:w-[1200px] xl:w-[1320px]">
+                <div className="navbar px-0 py-4">
                     <div className="navbar-start lg:gap-6">
                         <Link href='/' className="flex items-center gap-3">
                             <figure>
@@ -21,7 +21,7 @@ const Header = () => {
                             <li><Link href='/'><TbHome></TbHome> Home</Link></li>
                             <li className="dropdown dropdown-hover">
                                 <div tabIndex={0} role="button" className="text-[18px]"> <TbLayoutGrid></TbLayoutGrid> Services <TbChevronDown></TbChevronDown></div>
-                                <ul tabIndex={0} className="dropdown-content menu rounded-box z-[1] w-52 p-2 sweet-shad ms-0 hover:bg-none">
+                                <ul tabIndex={0} className="dropdown-content menu rounded-box z-[1] w-52 p-2 sweet-shad ms-0 glass">
                                     <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/'><TbAppWindow></TbAppWindow> Web Development</Link></li>
                                     <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/'><TbBox></TbBox> App Development</Link></li>
                                     <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/'><TbBrandMeta></TbBrandMeta> Digital Marketing</Link></li>
@@ -32,7 +32,7 @@ const Header = () => {
                             <li><Link href='/'><TbCode></TbCode> Products</Link></li>
                             <li className="dropdown dropdown-hover">
                                 <div tabIndex={0} role="button" className="text-[18px]"><TbServerCog></TbServerCog> Domain & Hosting <TbChevronDown></TbChevronDown></div>
-                                <ul tabIndex={0} className="dropdown-content menu rounded-box z-[1] w-52 p-2 sweet-shad ms-0 hover:bg-none">
+                                <ul tabIndex={0} className="dropdown-content menu rounded-box z-[1] w-52 p-2 sweet-shad ms-0 glass">
                                     <li><Link href='/' className='hover:ps-7 transition-all duration-500 hover:text-primary'><TbServer></TbServer> Web Hosting</Link></li>
                                     <li><Link href='/' className='hover:ps-7 transition-all duration-500 hover:text-primary'><TbLink></TbLink> Search Domain</Link></li>
                                 </ul>
