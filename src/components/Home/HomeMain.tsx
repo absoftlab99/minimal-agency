@@ -4,6 +4,7 @@ import Hero from './Hero';
 import Portfolio from './Portfolio';
 import AgencyState from './AgencyState';
 import Team from './Team';
+import Clients from './Clients';
 
 interface PortfolioItem {
     id: number;
@@ -25,9 +26,17 @@ interface TeamMember {
     email: string;
 }
 
+interface ClientSlide {
+    id: number;
+    client_logo: string;
+    client_name: string;
+    client_url: string;
+}
+
 const HomeMain = () => {
     const [portfolios, setPortfolios] = useState<PortfolioItem[]>([]);
     const [teamMembers, setTeamMembers] = useState<TeamMember[]>([]);
+    const [clients, setClients] = useState<ClientSlide[]>([]);
 
 
     useEffect(() => {
@@ -48,12 +57,23 @@ const HomeMain = () => {
         fetchTeamMembers();
     }, []);
 
+    useEffect(() => {
+        const fetchClients = async () => {
+            const res = await fetch('/client.json');
+            const data = await res.json();
+            setClients(data);
+        }
+        fetchClients();
+    }, []);
+
+
     return (
         <div className="w-full">
             <Hero />
             <Portfolio portfolios={portfolios} />
             <AgencyState></AgencyState>
             <Team teamMembers={teamMembers}></Team>
+            <Clients clients={clients}></Clients>
         </div>
     );
 };

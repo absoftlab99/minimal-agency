@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "client_logo": "https://i.ibb.co.com/N98YTcG/amar-sangbad-com.jpg",
+        "client_name": "আমার সংবাদ",
+        "client_url": "https://www.amarsangbad.com/"
+    },
+    {
+        "id": 2,
+        "client_logo": "https://i.ibb.co.com/cQmW6p6/bd-pratidin-com.jpg",
+        "client_name": "বাংলাদেশ প্রতিদিন",
+        "client_url": "https://www.bd-pratidin.com/"
+    },
+    {
+        "id": 3,
+        "client_logo": "https://i.ibb.co.com/rcKRKMf/bhorerkagoj-net.jpg",
+        "client_name": "ভোরের কাগজ",
+        "client_url": "https://www.bhorerkagoj.com/"
+    },
+    {
+        "id": 4,
+        "client_logo": "https://i.ibb.co.com/TBfGL4F/bonikbarta-com.jpg",
+        "client_name": "বনিক বার্তা",
+        "client_url": "https://www.bonikbarta.com/"
+    },
+    {
+        "id": 5,
+        "client_logo": "https://i.ibb.co.com/J3Sp2xB/dailyjanakantha-com.jpg",
+        "client_name": "দৈনিক জনকন্ঠ",
+        "client_url": "https://www.dailyjanakantha.com/"
+    },
+    {
+        "id": 6,
+        "client_logo": "https://i.ibb.co.com/3vJxXz6/dailynayadiganta-com.jpg",
+        "client_name": "দৈনিক নয়া দিগন্ত",
+        "client_url": "https://www.dailynayadiganta.com/"
+    },
+    {
+        "id": 7,
+        "client_logo": "https://i.ibb.co.com/v1kKJhP/dainikamadershomoy-com.jpg",
+        "client_name": "দৈনিক আমাদের সময়",
+        "client_url": "https://dainikamadershomoy.com/"
+    },
+    {
+        "id": 8,
+        "client_logo": "https://i.ibb.co.com/FxnZvpq/ittefaq-com-bd.jpg",
+        "client_name": "ইত্তেফাক",
+        "client_url": "https://www.ittefaq.com.bd/"
+    },
+    {
+        "id": 9,
+        "client_logo": "https://i.ibb.co.com/P1VrHMf/jjdin-com.jpg",
+        "client_name": "যায় যায় দিন",
+        "client_url": "https://www.jaijaidinbd.com/"
+    },
+    {
+        "id": 10,
+        "client_logo": "https://i.ibb.co.com/8x1FL6y/jugantor-com.jpg",
+        "client_name": "জুগান্তর",
+        "client_url": "https://www.jugantor.com/"
+    },
+    {
+        "id": 11,
+        "client_logo": "https://i.ibb.co.com/wRSFm8D/kalerkantho-com.jpg",
+        "client_name": "কালের কন্ঠ",
+        "client_url": "https://www.kalerkantho.com/"
+    },
+    {
+        "id": 12,
+        "client_logo": "https://i.ibb.co.com/yyqtFpR/mzamin-com.jpg",
+        "client_name": "মানব জমিন",
+        "client_url": "https://mzamin.com/"
+    },
+    {
+        "id": 13,
+        "client_logo": "https://i.ibb.co.com/nsk0Ld3/prothom-alo-com.jpg",
+        "client_name": "প্রথম আলো",
+        "client_url": "https://www.prothomalo.com/"
+    },
+    {
+        "id": 14,
+        "client_logo": "https://i.ibb.co.com/dLKfYN0/protidinersangbad-com.jpg",
+        "client_name": "প্রতিদিনের সংবাদ",
+        "client_url": "https://www.protidinersangbad.com/"
+    },
+    {
+        "id": 15,
+        "client_logo": "https://i.ibb.co.com/fxx1Cnn/samakal-net.jpg",
+        "client_name": "সমকাল",
+        "client_url": "https://samakal.com/"
+    },
+    {
+        "id": 16,
+        "client_logo": "https://i.ibb.co.com/6J3bt0F/dailysangram-com.jpg",
+        "client_name": "দৈনিক সংগ্রাম",
+        "client_url": "https://dailysangram.com/"
+    }
+]
