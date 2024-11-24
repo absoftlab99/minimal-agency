@@ -1,38 +1,26 @@
-'use client'
+import React from 'react';
+import PortfolioCard from './PortfolioCard';
 import Image from 'next/image';
-import React, { useState } from 'react';
 import l2r from '../../app/assets/l2r.png';
 import r2l from '../../app/assets/r2l.png';
-import PortfolioCard from './PortfolioCard';
-import { GetStaticProps, NextPage } from 'next';
 
-interface Portfolio {
+interface PortfolioItem {
     id: number;
     thumbnail: string;
     title: string;
     price: string;
     sold_count: string;
+    view_url: string;
 }
+
 interface Props {
-    portfolios: Portfolio[];
+    portfolios: PortfolioItem[];
 }
 
-export const getStaticProps: GetStaticProps<Props> = async () => {
-    const res = await fetch('/cms.json');
-    const portfolios: Portfolio[] = await res.json();
-
-    return {
-        props: {
-            portfolios,
-        },
-    };
-};
-
-const Portfolio: NextPage<Props> = ({ portfolios }) => {
-
+const Portfolio: React.FC<Props> = ({ portfolios }) => {
     return (
         <div className='grid lg:place-content-center w-full bg-[#f7f9fc] custom-bg py-20'>
-            <div className="w-full max-w-[1320px] px-4 md:px-0 mx-auto">
+            <div className='w-full lg:w-[1200px] xl:w-[1320px] px-4 md:px-0 mx-auto'>
                 <div className="grid grid-cols-12 gap-2 md:gap-5 items-center">
                     <div className='col-span-12 md:col-span-6'>
                         <div className="flex gap-2 items-center justify-center md:justify-start">
@@ -47,9 +35,17 @@ const Portfolio: NextPage<Props> = ({ portfolios }) => {
                     </div>
                 </div>
                 <div className="grid grid-cols-12 gap-5 mt-5">
-                    <div className="col-span-12 md:col-span-4 lg:col-span-3">
-                        <PortfolioCard portfolios={portfolios}></PortfolioCard>
-                    </div>
+                    {portfolios.map((portfolio) => (
+                        <div className='col-span-12 md:col-span-4 lg:col-span-3' key={portfolio.id}>
+                            <PortfolioCard
+                                title={portfolio.title}
+                                thumbnail={portfolio.thumbnail}
+                                price={portfolio.price}
+                                soldCount={portfolio.sold_count}
+                                viewUrl={portfolio.view_url}
+                            />
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>

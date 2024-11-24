@@ -1,7 +1,16 @@
-import type { NextConfig } from "next";
+import { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        hostname: 'i.ibb.co'
+      },
+      {
+        hostname: 'i.ibb.co.com'
+      }
+    ],
+  },
 };
 
 export default nextConfig;

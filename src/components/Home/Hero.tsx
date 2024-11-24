@@ -6,8 +6,8 @@ import Services from './Services';
 
 const Hero = () => {
     return (
-        <div className='grid lg:place-content-center w-full md:pt-12 pb-24'>
-            <div className='w-full max-w-[1320px] px-4 md:px-0 mx-auto'>
+        <div className='grid lg:place-content-center bg-[#def2ff] w-full md:pt-12 pb-24'>
+            <div className='w-full lg:w-[1200px] xl:w-[1320px] px-4 md:px-0 mx-auto'>
                 <div className='grid grid-cols-12 py-12 gap-6 md:gap-14 w-full items-center'>
                     <div className="col-span-12 md:col-span-7 w-full">
                         <div className="flex">

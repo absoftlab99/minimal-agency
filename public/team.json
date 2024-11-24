@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "আল মিজানুর রশিদ",
+        "designation": "চেয়ারম্যান",
+        "photo": "https://i.ibb.co.com/z4kV9Tn/sir.jpg",
+        "facebook": "/",
+        "instagram": "/",
+        "linkedin": "/",
+        "email": "almizan09@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "মোঃ শাহিন রেজা",
+        "designation": "ওয়েব ডেভেলোপার",
+        "photo": "https://i.ibb.co.com/KqzkfX5/Sahhin-Reza-300px.png",
+        "facebook": "/",
+        "instagram": "/",
+        "linkedin": "/",
+        "email": "webgurureza@gmail.com"
+    },
+    {
+        "id": 3,
+        "name": "আব্দুল্লাহ আল মাহমুদ",
+        "designation": "ফ্রন্ট-এন্ড ডেভেলোপার",
+        "photo": "https://i.ibb.co.com/GcvY2Ys/abdullah.jpg",
+        "facebook": "https://facebook.com/absoftlab",
+        "instagram": "https://instagram.com/absoftlab",
+        "linkedin": "https://linkedin.com/absoftlab11",
+        "email": "admin@absoftlab.com"
+    },
+    {
+        "id": 4,
+        "name": "মোঃ জাহিদ হাসান",
+        "designation": "ডিজিটাল মার্কেটার",
+        "photo": "https://i.ibb.co.com/K2nX3Jx/Grow-Soft-Lab-Zahid.webp",
+        "facebook": "/",
+        "instagram": "/",
+        "linkedin": "/",
+        "email": "/"
+    }
+]
