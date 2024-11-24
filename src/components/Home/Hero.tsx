@@ -6,9 +6,9 @@ import Services from './Services';
 
 const Hero = () => {
     return (
-        <div className='grid lg:place-content-center bg-primary bg-opacity-10 w-full'>
-            <div className='w-full max-w-[1320px] px-4 md:px-6 lg:px-8 mx-auto'>
-                <div className='grid grid-cols-12 py-12 gap-6 md:gap-14 w-full'>
+        <div className='grid lg:place-content-center w-full md:pt-12 pb-24'>
+            <div className='w-full max-w-[1320px] px-4 md:px-0 mx-auto'>
+                <div className='grid grid-cols-12 py-12 gap-6 md:gap-14 w-full items-center'>
                     <div className="col-span-12 md:col-span-7 w-full">
                         <div className="flex">
                             <p className='bg-neutral rounded-full p-2 text-white flex gap-2 mb-2'>
@@ -20,8 +20,7 @@ const Hero = () => {
                             ডিজিটাল বাংলাদেশের<br />স্মার্ট সমাধান
                         </h4>
                         <p className='text-secondary text-[16px] md:text-[18px] mb-4'>
-                            উন্নত মানের প্রযুক্তি সেবা প্রদান আমাদের প্রধান লক্ষ্য asqwer awefasdfa asdfa
-                        </p>
+                            উন্নত মানের প্রযুক্তি সেবা প্রদান আমাদের প্রধান লক্ষ্য </p>
                         <div className="join flex flex-wrap md:flex-nowrap items-center bg-white p-3 w-full gap-3 mt-4 rounded-md shadow">
                             <div className='flex gap-3 justify-start items-center w-full md:w-2/3'>
                                 <p className="join-item text-[24px] md:text-[28px] text-primary"><TbWorld /></p>
@@ -29,7 +28,7 @@ const Hero = () => {
                             </div>
                             <div className='join-item flex justify-end w-full md:w-1/3'>
                                 <button type='button'className='btn btn-accent w-full md:w-auto md:px-14 text-sm'>
-                                    <span className='hidden md:flex'>ডোমেইন</span> <span>অনুসন্ধান</span>
+                                    ডোমেইন অনুসন্ধান
                                 </button>
                             </div>
                         </div>

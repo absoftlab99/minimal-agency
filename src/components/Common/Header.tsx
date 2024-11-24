@@ -6,7 +6,7 @@ import { TbBox, TbAppWindow, TbChevronDown, TbHome, TbLayoutGrid, TbLogout, TbMe
 
 const Header = () => {
     return (
-        <div className='grid md:place-content-center'>
+        <div className='grid md:place-content-center bg-white'>
             <div className="lg:w-[1200px] xl:w-[1320px]">
                 <div className="navbar px-0 py-4">
                     <div className="navbar-start lg:gap-6">
