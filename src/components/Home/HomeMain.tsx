@@ -5,6 +5,7 @@ import Portfolio from './Portfolio';
 import AgencyState from './AgencyState';
 import Team from './Team';
 import Clients from './Clients';
+import CTA from './CTA';
 
 interface PortfolioItem {
     id: number;
@@ -74,6 +75,7 @@ const HomeMain = () => {
             <AgencyState></AgencyState>
             <Team teamMembers={teamMembers}></Team>
             <Clients clients={clients}></Clients>
+            <CTA></CTA>
         </div>
     );
 };

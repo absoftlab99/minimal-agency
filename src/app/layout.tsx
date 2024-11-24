@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import HeaderTop from "@/components/Common/HeaderTop";
 import Header from "@/components/Common/Header";
+import Footer from "@/components/Common/Footer";
+import FooterStripe from "@/components/Common/FooterStripe";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -40,6 +42,8 @@ export default function RootLayout({
         <div className="w-full">
           {children}
         </div>
+        <Footer></Footer>
+        <FooterStripe></FooterStripe>
       </body>
     </html>
   );
