@@ -27,8 +27,6 @@ export const metadata: Metadata = {
   description: "build with next.js, typescript, tailwindcss, daisyui, tablericons, reacticons,",
 };
 
-<meta property="twitter:image" content="./assets/logo.png"></meta>
-
 
 export default function RootLayout({
   children,
@@ -37,6 +35,18 @@ export default function RootLayout({
 }>) {
   return (
     <html data-theme="light" lang='en' suppressHydrationWarning>
+      <head>
+        <meta property="twitter:image" content="./assets/logo.png"></meta>
+        <meta property="twitter:card" content="./assets/logo.png"></meta>
+        <meta property="twitter:card" content="./assets/logo.png"></meta>
+        <meta property="twitter:title" content="Minimal Agency Website"></meta>
+        <meta property="twitter:description" content="build with next.js, typescript, tailwindcss, daisyui, tablericons, reacticons,"></meta>
+        <meta property="og:image" content="./assets/logo.png"></meta>
+        <meta property="og:site_name" content="Minimal Agency Website"></meta>
+        <meta property="og:title" content="Minimal Agency Website"></meta>
+        <meta property="og:description" content="build with next.js, typescript, tailwindcss, daisyui, tablericons, reacticons," />
+        <meta property="og:url" content="https://minimal-agency.vercel.app/"></meta>
+      </head>
       <body
         className={`${geistSans.className} ${geistMono.className} ${anikBangla.className} antialiased w-full`}
       >
