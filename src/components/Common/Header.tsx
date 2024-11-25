@@ -23,21 +23,21 @@ const Header = () => {
                                 <div tabIndex={0} role="button" className="text-[18px]"> <TbLayoutGrid></TbLayoutGrid> Services <TbChevronDown></TbChevronDown></div>
                                 <ul tabIndex={0} className="dropdown-content menu rounded-box z-[1] w-52 p-2 sweet-shad ms-0 glass">
                                     <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/web-development'><TbAppWindow></TbAppWindow> Web Development</Link></li>
-                                    <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/'><TbBox></TbBox> App Development</Link></li>
-                                    <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/'><TbBrandMeta></TbBrandMeta> Digital Marketing</Link></li>
-                                    <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/'><TbVectorBezier></TbVectorBezier> Graphics Design</Link></li>
-                                    <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/'><TbMovie></TbMovie> Video Production</Link></li>
+                                    <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/app-development'><TbBox></TbBox> App Development</Link></li>
+                                    <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/ditial-marketing'><TbBrandMeta></TbBrandMeta> Digital Marketing</Link></li>
+                                    <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/graphics-design'><TbVectorBezier></TbVectorBezier> Graphics Design</Link></li>
+                                    <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/video-production'><TbMovie></TbMovie> Video Production</Link></li>
                                 </ul>
                             </li>
-                            <li><Link href='/'><TbCode></TbCode> Products</Link></li>
+                            <li><Link href='/products'><TbCode></TbCode> Products</Link></li>
                             <li className="dropdown dropdown-hover">
                                 <div tabIndex={0} role="button" className="text-[18px]"><TbServerCog></TbServerCog> Domain & Hosting <TbChevronDown></TbChevronDown></div>
                                 <ul tabIndex={0} className="dropdown-content menu rounded-box z-[1] w-52 p-2 sweet-shad ms-0 glass">
-                                    <li><Link href='/' className='hover:ps-7 transition-all duration-500 hover:text-primary'><TbServer></TbServer> Web Hosting</Link></li>
-                                    <li><Link href='/' className='hover:ps-7 transition-all duration-500 hover:text-primary'><TbLink></TbLink> Search Domain</Link></li>
+                                    <li><Link href='/hosting' className='hover:ps-7 transition-all duration-500 hover:text-primary'><TbServer></TbServer> Web Hosting</Link></li>
+                                    <li><Link href='/domain' className='hover:ps-7 transition-all duration-500 hover:text-primary'><TbLink></TbLink> Search Domain</Link></li>
                                 </ul>
                             </li>
-                            <li><Link href='/'><TbAddressBook></TbAddressBook> Contact Us</Link></li>
+                            <li><Link href='/contact-us'><TbAddressBook></TbAddressBook> Contact Us</Link></li>
                         </ul>
                     </div>
                     <div className="navbar-end flex justify-end">
@@ -66,26 +66,26 @@ const Header = () => {
                                 </summary>
                                 <ul>
                                     <li><Link href='/web-development'><TbAppWindow></TbAppWindow> Web Development</Link></li>
-                                    <li><Link href='/'><TbBox></TbBox> App Development</Link></li>
-                                    <li><Link href='/'><TbBrandMeta></TbBrandMeta> Digital Marketing</Link></li>
-                                    <li><Link href='/'><TbVectorBezier></TbVectorBezier> Graphics Design</Link></li>
-                                    <li><Link href='/'><TbMovie></TbMovie> Video Production</Link></li>
+                                    <li><Link href='/app-development'><TbBox></TbBox> App Development</Link></li>
+                                    <li><Link href='/digital-marketing'><TbBrandMeta></TbBrandMeta> Digital Marketing</Link></li>
+                                    <li><Link href='/graphics-design'><TbVectorBezier></TbVectorBezier> Graphics Design</Link></li>
+                                    <li><Link href='/video-production'><TbMovie></TbMovie> Video Production</Link></li>
                                 </ul>
                             </details>
                         </li>
-                        <li><Link href='/'><TbCode></TbCode> Products</Link></li>
+                        <li><Link href='/products'><TbCode></TbCode> Products</Link></li>
                         <li>
                             <details open>
                                 <summary>
                                     <TbServerCog></TbServerCog> Domain & Hosting
                                 </summary>
                                 <ul>
-                                    <li><Link href='/'><TbServer></TbServer> Web Hosting</Link></li>
-                                    <li><Link href='/'><TbLink></TbLink> Search Domain</Link></li>
+                                    <li><Link href='/hosting'><TbServer></TbServer> Web Hosting</Link></li>
+                                    <li><Link href='/domain'><TbLink></TbLink> Search Domain</Link></li>
                                 </ul>
                             </details>
                         </li>
-                        <li><Link href='/'><TbAddressBook></TbAddressBook> Contact Us</Link></li>
+                        <li><Link href='/contact-us'><TbAddressBook></TbAddressBook> Contact Us</Link></li>
                     </ul>
                 </div>
             </div>
