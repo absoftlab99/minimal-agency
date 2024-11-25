@@ -10,5 +10,30 @@
 .custom-bg{
   background-image: url('../app/assets/pattern.png');
 }
+.web-bg{
+  background-image: url('../app/assets/service-bg.png');
+  background-size: cover;
+}
+
+.custom-btn1{
+  background: rgb(230,96,13);
+  background: linear-gradient(22deg, rgba(230,96,13,1) 27%, rgba(253,95,91,1) 69%);
+  color: white;
+}
+.custom-btn2{
+  background: rgb(5,185,227);
+  background: linear-gradient(22deg, rgba(5,185,227,1) 27%, rgba(104,113,254,1) 69%);
+  color: white;
+}
+.custom-btn3{
+  background: rgb(60,104,186);
+  background: linear-gradient(22deg, rgba(60,104,186,1) 27%, rgba(70,50,182,1) 69%);
+  color: white;
+}
+.custom-btn4{
+  background: rgb(245,90,90);
+  background: linear-gradient(22deg, rgba(245,90,90,1) 27%, rgba(255,45,45,1) 69%);
+  color: white;
+}
 
 

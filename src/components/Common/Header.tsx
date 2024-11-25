@@ -22,7 +22,7 @@ const Header = () => {
                             <li className="dropdown dropdown-hover">
                                 <div tabIndex={0} role="button" className="text-[18px]"> <TbLayoutGrid></TbLayoutGrid> Services <TbChevronDown></TbChevronDown></div>
                                 <ul tabIndex={0} className="dropdown-content menu rounded-box z-[1] w-52 p-2 sweet-shad ms-0 glass">
-                                    <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/'><TbAppWindow></TbAppWindow> Web Development</Link></li>
+                                    <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/web-development'><TbAppWindow></TbAppWindow> Web Development</Link></li>
                                     <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/'><TbBox></TbBox> App Development</Link></li>
                                     <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/'><TbBrandMeta></TbBrandMeta> Digital Marketing</Link></li>
                                     <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/'><TbVectorBezier></TbVectorBezier> Graphics Design</Link></li>
@@ -65,7 +65,7 @@ const Header = () => {
                                     <TbLayoutGrid></TbLayoutGrid> Services
                                 </summary>
                                 <ul>
-                                    <li><Link href='/'><TbAppWindow></TbAppWindow> Web Development</Link></li>
+                                    <li><Link href='/web-development'><TbAppWindow></TbAppWindow> Web Development</Link></li>
                                     <li><Link href='/'><TbBox></TbBox> App Development</Link></li>
                                     <li><Link href='/'><TbBrandMeta></TbBrandMeta> Digital Marketing</Link></li>
                                     <li><Link href='/'><TbVectorBezier></TbVectorBezier> Graphics Design</Link></li>

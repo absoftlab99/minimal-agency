@@ -31,7 +31,7 @@ const Portfolio: React.FC<Props> = ({ portfolios }) => {
                         <h2 className='text-[24px] md:text-[30px] font-bold text-center md:text-start mt-2'>আমাদের জনপ্রিয় পিএইচপি স্ক্রিপ্ট</h2>
                     </div>
                     <div className='col-span-12 md:col-span-6'>
-                        <p className='text-[16px] md:text-[18px] text-center md:text-start'>আপনার প্রতিষ্ঠানের সকল সমস্যার সমাধানে আমরা টেকতরঙ্গ টি তৈরি করছি পিএইচপি ওয়েব অ্যাপ ও ওয়েবসাইট সিএমএস।</p>
+                        <p className='text-[16px] md:text-[18px] text-center md:text-start'>আপনার প্রতিষ্ঠানের সকল সমস্যার সমাধানে আমরা উই প্রো ডেভস্ টিম তৈরি করছি পিএইচপি ওয়েব অ্যাপ ও ওয়েবসাইট সিএমএস।</p>
                     </div>
                 </div>
                 <div className="grid grid-cols-12 gap-5 mt-5">
