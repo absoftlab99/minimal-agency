@@ -24,7 +24,7 @@ const Header = () => {
                                 <ul tabIndex={0} className="dropdown-content menu rounded-box z-[1] w-52 p-2 sweet-shad ms-0 glass">
                                     <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/web-development'><TbAppWindow></TbAppWindow> Web Development</Link></li>
                                     <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/app-development'><TbBox></TbBox> App Development</Link></li>
-                                    <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/ditial-marketing'><TbBrandMeta></TbBrandMeta> Digital Marketing</Link></li>
+                                    <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/digital-marketing'><TbBrandMeta></TbBrandMeta> Digital Marketing</Link></li>
                                     <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/graphics-design'><TbVectorBezier></TbVectorBezier> Graphics Design</Link></li>
                                     <li><Link className='hover:ps-7 transition-all duration-500 hover:text-primary' href='/video-production'><TbMovie></TbMovie> Video Production</Link></li>
                                 </ul>
@@ -41,7 +41,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="navbar-end flex justify-end">
-                        <a className="btn custom-btn2 hidden lg:flex text-white"><TbLogout></TbLogout> Our Product</a>
+                        <Link href='/products' className="btn custom-btn2 hidden lg:flex text-white"><TbLogout></TbLogout> Our Product</Link>
                         <label htmlFor="my-drawer" className='btn btn-ghost lg:hidden text-[28px]'><TbMenu2></TbMenu2></label>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Header = () => {
                     <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
                     <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
                         <div className="flex justify-between items-center">
-                            <button type="button" className='btn btn-sm btn-primary text-white'>Our Products</button>
+                            <Link href='/products' type="button" className='btn btn-sm btn-primary text-white'>Our Products</Link>
                             <label htmlFor="my-drawer" aria-label="close sidebar" className="btn btn-sm btn-ghost text-[28px]"><TbX></TbX></label>
                         </div>
                         <div className="divider my-0"></div>

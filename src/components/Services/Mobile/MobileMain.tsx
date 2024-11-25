@@ -1,8 +1,8 @@
 'use client'
 import Link from 'next/link';
-import React, { useEffect, useState } from 'react';
-import { TbBook, TbBuilding, TbExplicit, TbHeadphonesFilled, TbNews, TbSchool, TbShoppingCartCode } from 'react-icons/tb';
-import ServiceCard from '../Mobile/ServiceCard';
+import React, { useState, useEffect } from 'react';
+import { TbHeadphonesFilled } from 'react-icons/tb';
+import ServiceCard from './ServiceCard';
 
 interface ServiceItem {
     id: number;
@@ -14,19 +14,19 @@ interface ServiceItem {
     divider_class: string;
     box_class: string;
 }
-
-const WebServices = () => {
+const MobileMain = () => {
     const [animation, setAnimation] = useState(0);
     const [services, setServices] = useState<ServiceItem[]>([]);
 
     useEffect(() => {
         const fetchPortfolios = async () => {
-            const res = await fetch('/web.json');
+            const res = await fetch('/mobile.json');
             const data = await res.json();
             setServices(data);
         };
         fetchPortfolios();
     }, []);
+
     return (
         <div className='grid place-content-center py-10 md:py-28 bg-white'>
             <div className="w-full lg:w-[1200px] xl:w-[1320px] px-4 md:px-0 mx-auto">
@@ -63,4 +63,4 @@ const WebServices = () => {
     );
 };
 
-export default WebServices;
+export default MobileMain;
