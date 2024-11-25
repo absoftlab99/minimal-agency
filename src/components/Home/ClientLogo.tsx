@@ -10,7 +10,7 @@ interface ClientProps {
 
 const ClientLogo: React.FC<ClientProps> = ({ client_logo, client_name, client_url }) => {
     return (
-            <div className='bg-base-100 p-2 rounded-md'>
+            <div className='new-bg p-2 rounded-md'>
                 <Link href={client_url}>
                     <Image
                         className='rounded'

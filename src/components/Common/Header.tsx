@@ -41,7 +41,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="navbar-end flex justify-end">
-                        <a className="btn btn-primary hidden lg:flex text-white"><TbLogout></TbLogout> Our Product</a>
+                        <a className="btn custom-btn2 hidden lg:flex text-white"><TbLogout></TbLogout> Our Product</a>
                         <label htmlFor="my-drawer" className='btn btn-ghost lg:hidden text-[28px]'><TbMenu2></TbMenu2></label>
                     </div>
                 </div>

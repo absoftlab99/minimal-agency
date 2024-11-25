@@ -17,22 +17,22 @@ const AgencyState = () => {
                 </div>
 
                 <div className="join join-vertica md:join-horizontal grid grid-cols-12 mt-4 md:mt-8 rounded-none md:rounded-md">
-                    <div className="join-item bg-gray-950 hover:bg-gray-950 hover:glass duration-500 transition-colors p-4 col-span-12 md:col-span-3 flex flex-col items-center md:items-start">
+                    <div className="join-item custom-btn2 duration-500 transition-colors p-4 col-span-12 md:col-span-3 flex flex-col items-center md:items-start">
                         <h1 className='text-[45px] text-white font-bold'>৭১+</h1>
                         <p className='text-white mt-2'>ওয়েব ডেভেলপমেন্ট<br></br>
                         এর নিয়মিত গ্রাহক</p>
                     </div>
-                    <div className="join-item bg-gray-900 hover:bg-gray-900 hover:glass duration-500 transition-colors p-4 col-span-12 md:col-span-3 flex flex-col items-center md:items-start">
+                    <div className="join-item custom-btn3 duration-500 transition-colors p-4 col-span-12 md:col-span-3 flex flex-col items-center md:items-start">
                         <h1 className='text-[45px] text-white font-bold'>৯৬+</h1>
                         <p className='text-white mt-2'>ওয়ার্ডেপ্রেস থিম<br></br>
                         বিক্রয় হয়েছে</p>
                     </div>
-                    <div className="join-item bg-gray-800 hover:bg-gray-800 hover:glass duration-500 transition-colors p-4 col-span-12 md:col-span-3 flex flex-col items-center md:items-start">
+                    <div className="join-item custom-btn4 duration-500 transition-colors p-4 col-span-12 md:col-span-3 flex flex-col items-center md:items-start">
                         <h1 className='text-[45px] text-white font-bold'>৫৮</h1>
                         <p className='text-white mt-2'>ভিডিও ও ডকুমেন্টারি<br></br>
                         সরবরাহ করেছি আমরা</p>
                     </div>
-                    <div className="join-item bg-primary hover:bg-primary hover:glass duration-500 transition-colors p-4 col-span-12 md:col-span-3 flex flex-col items-center md:items-start">
+                    <div className="join-item new-bg duration-500 transition-colors p-4 col-span-12 md:col-span-3 flex flex-col items-center md:items-start">
                         <h1 className='text-[45px] text-white font-bold'>৪৮০+</h1>
                         <p className='text-white mt-2'>গ্রাহক নিয়মিত আমাদের<br></br>
                         সরবরাহ করেছি আমরা</p>

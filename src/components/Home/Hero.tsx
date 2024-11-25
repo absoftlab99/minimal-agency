@@ -13,7 +13,7 @@ const Hero = () => {
                         <div className="flex">
                             <p className='bg-neutral rounded-full p-2 text-white flex gap-2 mb-2'>
                                 ওই প্রো ডেভস 
-                                <span className='bg-primary rounded-full px-2'>স্মার্ট সমাধান</span>
+                                <span className='custom-btn4 rounded-full px-2'>স্মার্ট সমাধান</span>
                             </p>
                         </div>
                         <h4 className='text-[24px] md:text-[42px] font-bold mt-4 mb-2 leading-tight'>
@@ -27,7 +27,7 @@ const Hero = () => {
                                 <input type="text" placeholder="example.com" className="input join-item w-full bg-white focus:outline-none focus:ring-0 focus:ring-offset-0 border-none"/>
                             </div>
                             <div className='join-item flex justify-end w-full md:w-1/3'>
-                                <button type='button'className='btn btn-accent w-full md:w-auto md:px-14 text-sm'>
+                                <button type='button'className='btn new-bg w-full md:w-auto md:px-14 text-sm'>
                                     ডোমেইন অনুসন্ধান
                                 </button>
                             </div>

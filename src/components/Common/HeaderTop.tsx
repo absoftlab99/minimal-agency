@@ -3,7 +3,7 @@ import { TbMessage2, TbPhoneCall, TbRosetteDiscountCheckFilled } from 'react-ico
 
 const HeaderTop = () => {
     return (
-        <div className='grid md:place-content-center bg-primary h-8 px-4 md:px-0'>
+        <div className='grid md:place-content-center custom-btn3 h-8 px-4 md:px-0'>
             <div className='lg:w-[1200px] xl:w-[1320px]'>
                 <div className="justify-between text-white hidden md:flex">
                     <div className="flex gap-4">
