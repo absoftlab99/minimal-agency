@@ -1,11 +1,12 @@
 'use client'
+import Link from 'next/link';
 import React, { useState } from 'react';
-import { TbBuilding, TbShoppingCartCode } from 'react-icons/tb';
+import { TbBuilding, TbHeadphonesFilled, TbShoppingCartCode } from 'react-icons/tb';
 
 const WebServices = () => {
     const [animation, setAnimation] = useState(0);
     return (
-        <div className='grid place-content-center py-10 md:py-20'>
+        <div className='grid place-content-center py-10 md:py-28 bg-white'>
             <div className="w-full lg:w-[1200px] xl:w-[1320px] px-4 md:px-0 mx-auto">
                 <div className="grid grid-cols-12 justify-between items-center w-full gap-8 md:gap-4">
                     <div className="col-span-12 md:col-span-3">
@@ -104,6 +105,16 @@ const WebServices = () => {
                             </div>
                             <p>বিভিন্ন প্রিন্ট ম্যাগাজিন, বই এবং প্রকাশনির এর ডিজিটাল সংস্করণ</p>
                         </div>
+                    </div>
+                    <div className="col-span-12 md:col-span-6">
+                        <Link onMouseEnter={()=>setAnimation(7)} onMouseLeave={()=>setAnimation(0)} href='tel:+8801798930232' className="new-bg rounded-lg p-8 flex flex-col items-center">
+                            <h3 className='font-bold text-white text-[24px] text-center'>আমাদের সার্ভিস নিতে কল করুণ</h3>
+                            <div className={`bg-white p-3 rounded-full h-[60px] w-[60px] text-[35px] text-center text-error my-4 ${animation === 7 ? 'animate-bounce' : ''}`}>
+                                <TbHeadphonesFilled></TbHeadphonesFilled>
+                            </div>
+                            <p className='text-white'>যে কোন প্রয়োজনে কল করুণ</p>
+                            <h3 className='font-bold text-white text-[24px] text-center'>+৮৮০ ১৭৯৮৯৩০২৩২</h3>
+                        </Link>
                     </div>
                 </div>
             </div>
