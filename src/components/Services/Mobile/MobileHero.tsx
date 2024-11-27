@@ -1,8 +1,8 @@
 import React from 'react';
-import devImg from '../../../app/assets/web-development.svg';
+import devImg from '../../../app/assets/app-development.svg';
 import Image from 'next/image';
 
-const WebHero = () => {
+const MobileHero = () => {
     return (
         <div className='grid place-content-center py-10 md:py-20 web-bg min-h-[90vh]'>
             <div className="w-full lg:w-[1200px] xl:w-[1320px] px-4 md:px-0 mx-auto">
@@ -15,15 +15,15 @@ const WebHero = () => {
                             </p>
                         </div>
                         <h4 className='text-[24px] md:text-[42px] font-bold mt-6 mb-2 leading-tight'>
-                            প্রতিষ্ঠান বা ব্যাক্তিগত<br />ওয়েবসাইট ও সফটওয়্যার
+                            প্রতিষ্ঠান বা ব্যাক্তিগত<br />মোবাইল এ্যাপস্
                         </h4>
                         <div className="flex flex-wrap gap-3 items-center mt-6 w-full">
-                            <div className='btn custom-btn1 btn-block md:btn-wide '>ওয়ার্ডপ্রেস ওয়েবসাইট</div>
-                            <button className='btn custom-btn2 btn-block md:btn-wide' type="button">পিএচইপি ওয়েবসাইট</button>
+                            <div className='btn custom-btn1 btn-block md:btn-wide '>এন্ড্রোয়েড এ্যাপস্</div>
+                            <button className='btn custom-btn2 btn-block md:btn-wide' type="button">আই.এস.ও এ্যাপস</button>
                         </div>
                         <div className="flex flex-wrap gap-3 items-center mt-3">
-                            <button className='btn custom-btn3 btn-block md:btn-wide' type="button">ওয়ার্ডপ্রেস থিম</button>
-                            <button className='btn custom-btn4 btn-block md:btn-wide' type="button">কাস্টম স্ক্রিপ্ট</button>
+                            <button className='btn custom-btn3 btn-block md:btn-wide' type="button">ফ্লাটার + ডার্ট এ্যাপস্</button>
+                            <button className='btn custom-btn4 btn-block md:btn-wide' type="button">রিয়্যাক্ট ন্যাটিভ এ্যাপস্</button>
                         </div>
                     </div>
                     <div className="col-span-12 md:col-span-6">
@@ -37,4 +37,5 @@ const WebHero = () => {
     );
 };
 
-export default WebHero;
+
+export default MobileHero;

@@ -2,8 +2,8 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { TbHeadphonesFilled } from 'react-icons/tb';
-import ServiceCard from './ServiceCard';
-import MobileHero from './MobileHero';
+import ServiceCard from '../Mobile/ServiceCard';
+import MarketingHero from './MarketingHero';
 
 interface ServiceItem {
     id: number;
@@ -15,13 +15,13 @@ interface ServiceItem {
     divider_class: string;
     box_class: string;
 }
-const MobileMain = () => {
+const MarketingMain = () => {
     const [animation, setAnimation] = useState(0);
     const [services, setServices] = useState<ServiceItem[]>([]);
 
     useEffect(() => {
         const fetchPortfolios = async () => {
-            const res = await fetch('/mobile.json');
+            const res = await fetch('/marketing.json');
             const data = await res.json();
             setServices(data);
         };
@@ -30,7 +30,7 @@ const MobileMain = () => {
 
     return (
         <div className=''>
-            <MobileHero></MobileHero>
+            <MarketingHero></MarketingHero>
             <div className='grid place-content-center py-10 md:py-28 bg-white'>
                 <div className="w-full lg:w-[1200px] xl:w-[1320px] px-4 md:px-0 mx-auto">
     
@@ -67,4 +67,4 @@ const MobileMain = () => {
     );
 };
 
-export default MobileMain;
+export default MarketingMain;

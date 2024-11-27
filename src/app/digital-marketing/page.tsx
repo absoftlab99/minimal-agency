@@ -1,9 +1,10 @@
+import MarketingMain from '@/components/Services/Marketing/MarketingMain';
 import React from 'react';
 
 const page = () => {
     return (
         <div>
-            <h1>Digital Marketing</h1>
+            <MarketingMain></MarketingMain>
         </div>
     );
 };

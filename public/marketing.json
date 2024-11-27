@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "মেটা মার্কেটিং",
+        "serial": "০১",
+        "short_description": "কর্পোরেট প্রতিষ্ঠান, অর্গানাইজেশন, ব্যাঙ্ক-বিমা হাসপাতাল এর ওয়েবসাইট",
+        "icon": "https://i.ibb.co.com/B35kTmS/building.png",
+        "card_class": "custom-btn1",
+        "divider_class": "divider-warning",
+        "box_class": "custom-btn4"
+    },
+    {
+        "id": 2,
+        "title": "এস,ই,ও",
+        "serial": "০২",
+        "short_description": "দোকান বা অনলাইন শপ এর মাধ্যমে সারা দেশে পন্য বেচাকেনার ওয়েবসাইট",
+        "icon": "https://i.ibb.co.com/SKPDXFV/shopping-cart-code.png",
+        "card_class": "custom-btn2",
+        "divider_class": "divider-primary",
+        "box_class": "custom-btn3"
+    },
+    {
+        "id": 3,
+        "title": "লিড কালেকশন",
+        "serial": "০৩",
+        "short_description": "ব্লগ ও সাপ্তাহিক, দৈনিক, মাসিক পত্রিকা ও ম্যাগাজিন এর জন্য নিউজ পোর্টাল",
+        "icon": "https://i.ibb.co.com/Y02tn26/news.png",
+        "card_class": "custom-btn4",
+        "divider_class": "divider-warning",
+        "box_class": "custom-btn1"
+    },
+    {
+        "id": 4,
+        "title": "সেলস্ ফানেল",
+        "serial": "০৪",
+        "short_description": "স্কুল, কলেজ, মাদ্রাসা, কিন্টারগার্ডেন ও কোচিংসেন্টারের ওয়েবসাইট",
+        "icon": "https://i.ibb.co.com/QNJdxt3/school.png",
+        "card_class": "custom-btn3",
+        "divider_class": "divider-primary",
+        "box_class": "custom-btn2"
+    },
+    {
+        "id": 5,
+        "title": "গুগল মার্কেটিং",
+        "serial": "০৫",
+        "short_description": "প্রিন্ট পত্রিকা ও ট্যাবলেট এর জন্য ডায়নামিক পেপারকাটিং সিস্টেম",
+        "icon": "https://i.ibb.co.com/wpz1VnM/explicit.png",
+        "card_class": "custom-btn2",
+        "divider_class": "divider-primary",
+        "box_class": "custom-btn3"
+    },
+    {
+        "id": 6,
+        "title": "এ্যাফিলিয়্যাট মার্কেটিং",
+        "serial": "০৬",
+        "short_description": "বিভিন্ন প্রিন্ট ম্যাগাজিন, বই এবং প্রকাশনির এর ডিজিটাল সংস্করণ",
+        "icon": "https://i.ibb.co.com/vcC8hWv/book.png",
+        "card_class": "custom-btn1",
+        "divider_class": "divider-warning",
+        "box_class": "custom-btn4"
+    }
+]

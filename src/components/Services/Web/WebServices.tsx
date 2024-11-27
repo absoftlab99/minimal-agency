@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import { TbBook, TbBuilding, TbExplicit, TbHeadphonesFilled, TbNews, TbSchool, TbShoppingCartCode } from 'react-icons/tb';
+import { TbHeadphonesFilled } from 'react-icons/tb';
 import ServiceCard from '../Mobile/ServiceCard';
 
 interface ServiceItem {
