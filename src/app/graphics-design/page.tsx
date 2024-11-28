@@ -1,9 +1,10 @@
+import GraphicsMain from '@/components/Services/Graphics/GraphicsMain';
 import React from 'react';
 
 const page = () => {
     return (
         <div>
-            <h1>Graphics Desing</h1>
+            <GraphicsMain></GraphicsMain>
         </div>
     );
 };

@@ -1,9 +1,10 @@
+import VideoMain from '@/components/Services/Video/VideoMain';
 import React from 'react';
 
 const page = () => {
     return (
         <div>
-            <h1>Video Production</h1>
+            <VideoMain></VideoMain>
         </div>
     );
 };

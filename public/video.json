@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "ভিডিও ডকুমেন্টারি",
+        "serial": "০১",
+        "short_description": "প্রতিষ্ঠানের কার্যক্রম বা নির্দিষ্টবিষয়ে বিস্তারিত ভিডিও ডকুমান্টারি",
+        "icon": "https://i.ibb.co.com/B35kTmS/building.png",
+        "card_class": "custom-btn1",
+        "divider_class": "divider-warning",
+        "box_class": "custom-btn4"
+    },
+    {
+        "id": 2,
+        "title": "বিজ্ঞাপন ভিডিও",
+        "serial": "০২",
+        "short_description": "প্রচার প্রচারনার জন্য উন্নত মানের ভিডিও বিজ্ঞাপন তৈরি করতে টেকতরঙ্গ প্রস্তুত",
+        "icon": "https://i.ibb.co.com/SKPDXFV/shopping-cart-code.png",
+        "card_class": "custom-btn2",
+        "divider_class": "divider-primary",
+        "box_class": "custom-btn3"
+    },
+    {
+        "id": 3,
+        "title": "ইভেন্ট ডকুমেন্টারি",
+        "serial": "০৩",
+        "short_description": "আপনার ইভেন্ট ক্যামেরাবন্দি করে রাখতে যোগাযোগ করুণ আমাদের সাথে",
+        "icon": "https://i.ibb.co.com/Y02tn26/news.png",
+        "card_class": "custom-btn4",
+        "divider_class": "divider-warning",
+        "box_class": "custom-btn1"
+    },
+    {
+        "id": 4,
+        "title": "ভয়েস ওভার",
+        "serial": "০৪",
+        "short_description": "ভিডিওতে নারী ও পুরুষের কন্ঠের ভয়েজ ওভার দিচ্ছে আমাদের আর্টিস্ট",
+        "icon": "https://i.ibb.co.com/QNJdxt3/school.png",
+        "card_class": "custom-btn3",
+        "divider_class": "divider-primary",
+        "box_class": "custom-btn2"
+    },
+    {
+        "id": 5,
+        "title": "অনুষ্ঠান ভিডিও",
+        "serial": "০৫",
+        "short_description": "যে কোন অনুষ্ঠান ভিডিও কাভারেজ ও এডিটিং সার্ভিস পাচ্ছেন আমাদের কাছে",
+        "icon": "https://i.ibb.co.com/wpz1VnM/explicit.png",
+        "card_class": "custom-btn2",
+        "divider_class": "divider-primary",
+        "box_class": "custom-btn3"
+    },
+    {
+        "id": 6,
+        "title": "ভিডিও এডিট",
+        "serial": "০৬",
+        "short_description": "আপনার ধারন করা ভিডিও এডিট করতে প্রস্তুত আমাদের আমাদে দক্ষ এডিটর",
+        "icon": "https://i.ibb.co.com/vcC8hWv/book.png",
+        "card_class": "custom-btn1",
+        "divider_class": "divider-warning",
+        "box_class": "custom-btn4"
+    }
+]
