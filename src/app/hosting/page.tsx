@@ -1,9 +1,10 @@
+import HostingMain from '@/components/Hosting/HostingMain';
 import React from 'react';
 
 const page = () => {
     return (
         <div>
-            <h1>Hosting</h1>
+            <HostingMain></HostingMain>
         </div>
     );
 };
