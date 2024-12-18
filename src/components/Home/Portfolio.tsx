@@ -25,7 +25,7 @@ const Portfolio: React.FC<Props> = ({ portfolios }) => {
                     <div className='col-span-12 md:col-span-6'>
                         <div className="flex gap-2 items-center justify-center md:justify-start">
                             <Image src={l2r} width={26} height={7} alt='left to right chevern' />
-                            <p className='text-[16px] md:text-[18px]'>টেকতরঙ্গ কাস্টম সিএমএস </p>
+                            <p className='text-[16px] md:text-[18px]'>আমাদের কাস্টম সিএমএস </p>
                             <Image src={r2l} width={26} height={7} alt='right to left chevern' />
                         </div>
                         <h2 className='text-[24px] md:text-[30px] font-bold text-center md:text-start mt-2'>আমাদের জনপ্রিয় পিএইচপি স্ক্রিপ্ট</h2>
